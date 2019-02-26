@@ -3,15 +3,12 @@
 void main()
 {
 char a[100];
-int count=0;
+int i,l;
 scanf("%s",a);
-while(a[i]!='\0')
-{
-count++;
-}
-for(i=0;i>count;i--)
-{
-printf("%s",a);
-}
+  l=strlen(a);
+  for(i=l-1;i>=0;i--)
+  {
+    printf("%c",a[i]);
+  }
 getch();
 }
