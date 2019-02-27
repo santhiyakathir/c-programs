@@ -30,3 +30,27 @@ else if(a[i]=="C")
 b[i]=100;
 }
 else if(a[i]=="D")
+{
+  b[j]=500;
+  }
+ else
+  {
+  printf("INVALID");
+   }
+ }
+  for(i=0;i<l;i=i+2)
+    {
+      if(b[i]<b[i+1])
+        {
+        temp=b[i+1]-b[i];
+        }
+      else  
+        {
+        temp=b[i+1]+b[i];
+        }
+          int=temp+int;
+       }
+        printf("%d",int);
+        getch();
+    }
+
