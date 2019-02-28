@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-int n1,n2,num,den,rem,lcm;
+int n1,n2,num,den,rem,lcm,gcd;
 scanf("%d",&n1);
 scanf("%d",&n2);
 if(n1>n2)
@@ -22,7 +22,7 @@ den=rem;
 rem=num%den;
 }
 gcd=den;
-lcd=n1*n2/gcd;
+lcm=n1*n2/gcd;
 printf("%d",lcm);
 return 0;
 }
