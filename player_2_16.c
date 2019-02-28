@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<string.h>
-void main()
+int main()
 {
 int a[100],n,i,j,count;
 scanf("%d",&n);
@@ -19,10 +19,11 @@ count++;
 }
 }
 if(count==1)
+{
 printf("%d",a[i]);
 }
 }
 }
-getch();
+return 0;
 }
 
