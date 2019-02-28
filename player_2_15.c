@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<string.h>
-void main()
+int main()
 {
 char a[100],x;
 int i,j,count,max=0;
@@ -22,5 +22,5 @@ max=count;
 }
 }
 printf("%c",x);
-getch();
+return 0;
 }
