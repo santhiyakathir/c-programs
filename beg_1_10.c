@@ -1,16 +1,14 @@
 #include<stdio.h>
-#include<string.h>
 int main()
 {
-int a[100],i,count=0;
-for(i=0;a[i]!='\0';i++)
+int n,rem,count=0;
+scanf("%d",&n);
+while(n!=0)
 {
-scanf("%d",&a[i]);
+ rem=n%10;
+ count++;
+ n=n/10;
 }
-for(i=0;a[i]!='\0';i++)
- {
-  count++;
- }
 printf("%d",count);
 return 0;
- }
+}
