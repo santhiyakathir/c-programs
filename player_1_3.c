@@ -2,14 +2,14 @@
 #include<conio.h>
 void main()
 {
-int n, i, a, sum=0;
+int n, i, a, rev=0;
 scanf("%d",&n);
 while(n!=0)
 {
 a=n%10;
-sum=sum*10+a;
+rev=rev*10+a;
 n=n/10;
 }
-printf("%d",sum);
+printf("%d",rev);
 getch();
 }
