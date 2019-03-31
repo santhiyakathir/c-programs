@@ -1,9 +1,10 @@
 #include<stdio.h>
 int main()
 {
-int a[100],c=0,i=o
+char a[100];
+int c=0,i=0;
 scanf("%s",a);
-while(a[i]!=0)
+while(a[i]!='\0')
 {
 if(a[i]=='(')
 {
@@ -21,7 +22,7 @@ printf("balanced");
 }
 else
 {
-printf("not"):
+printf("not");
 }
 return 0;
 }
